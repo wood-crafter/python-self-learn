@@ -24,3 +24,9 @@ z = '3'
 print(int(y))
 print(str(x))
 print(float(z))
+# Note: 15.5 can not cast by int() -> Throw error
+
+# user input (command line)
+# input return string -> Have to cast data type
+username = input('Enter user name: ')
+print(username)

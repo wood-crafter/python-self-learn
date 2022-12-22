@@ -14,3 +14,13 @@ print(name.isdigit())
 print(name.isalpha())
 print(name.count('h'))
 print(name * 3)
+
+# Type casting
+
+x = 1
+y = 2.0
+z = '3'
+
+print(int(y))
+print(str(x))
+print(float(z))

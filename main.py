@@ -1,3 +1,4 @@
+import math
 #Variable
 name = 'hungpv'
 age = 22
@@ -30,3 +31,11 @@ print(float(z))
 # input return string -> Have to cast data type
 username = input('Enter user name: ')
 print(username)
+
+# Math functions
+
+pi = 3.14
+print(round(pi)) #expect 3
+print(math.ceil(pi)) #expect 4
+# Notice: math.sqrt - pow - abs - max - min - ...
+

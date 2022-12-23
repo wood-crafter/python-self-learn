@@ -51,3 +51,14 @@ print(lastName)
 print(nameWithStep)
 print(reversedName)
 
+
+# If statement
+
+age = int(input('Enter your age:'))
+
+if age > 35:
+  print('Old ass!')
+elif age > 18:
+  print('Adult!')
+else:
+  print('Kid!')

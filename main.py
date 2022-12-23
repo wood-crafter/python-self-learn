@@ -39,3 +39,15 @@ print(round(pi)) #expect 3
 print(math.ceil(pi)) #expect 4
 # Notice: math.sqrt - pow - abs - max - min - ...
 
+
+# String sclicing
+name = 'Phan Van Hung'
+firstName = name[0:8]
+lastName = name[9:]
+nameWithStep = name[::2]
+reversedName = name[::-1]
+print(firstName)
+print(lastName)
+print(nameWithStep)
+print(reversedName)
+

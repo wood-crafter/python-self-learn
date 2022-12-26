@@ -62,3 +62,16 @@ elif age > 18:
   print('Adult!')
 else:
   print('Kid!')
+
+
+# Logical operator
+
+heigh = int(input('Enter your heigh in cm: '))
+if not(heigh > 160 or heigh < 100):
+  print('Short ass')
+if (heigh >= 160 and heigh <= 175):
+  print('Medium ass')
+if (heigh > 175 and heigh < 200):
+  print('Tall ass')
+if (heigh >= 200 or heigh < 100):
+  print('Monster ass')

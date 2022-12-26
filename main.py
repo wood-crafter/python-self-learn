@@ -75,3 +75,12 @@ if (heigh > 175 and heigh < 200):
   print('Tall ass')
 if (heigh >= 200 or heigh < 100):
   print('Monster ass')
+
+
+# Loops
+
+# While work just as usual
+for i in range(3, 8, 2):
+  print('Im in loop with num: ' + str(i))
+for i in 'Should print out as row':
+  print(i, end='')

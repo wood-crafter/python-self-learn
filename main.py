@@ -86,15 +86,23 @@
 #   print(i, end='')
 
 
-# List
+# # List
 
-foods = ['pizza', 'hamburger', 'hotdog', 'spaghetti', 'pudding', 3, 4]
-foods[0] = 'sushi'
+# foods = ['pizza', 'hamburger', 'hotdog', 'spaghetti', 'pudding', 3, 4]
+# foods[0] = 'sushi'
 
-foods.append('ice cream')
-foods.remove('hotdog')
-print(foods.pop())
-print('List:')
+# foods.append('ice cream')
+# foods.remove('hotdog')
+# print(foods.pop())
+# print('List:')
 
-for x in foods:
-  print(x)
+# for x in foods:
+#   print(x)
+
+
+# Tuple: a collection which is ordered and unchangeable used to group together related data
+
+student = ('Phan Van Hung', 22, 'male')
+print(student.count('male'))
+print(student.index('male'))
+
